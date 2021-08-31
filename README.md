@@ -1,8 +1,8 @@
-#Getting Started
+# Getting Started
 
 To run this tool locally you need to install Node.js. Once done, all dependencies will be installed by using package.json
 
-##Prerequisites
+## Prerequisites
 
 Install [Node.js](https://nodejs.org/en/download/)
 
@@ -26,13 +26,14 @@ STORAGE_CONNECTION_STRING
 FILESTAGE_BEARER_TOKEN
 npm_config_COMPANY_WEBSITE_NAME`
 
-##Running the tool
+## Running the tool
 To run the tool, run the following command in the terminal (replace <nameofthewebsite> with the website you want to take screenshots of, for example github.com):
 
 `npm run waldo --CORIA_WEBSITE_NAME=<nameofthewebsite>`
+  
 `Example: npm run waldo --CORIA_WEBSITE_NAME=github.com`
 
-##Overview
+## Overview
 The tool consists of multiple JavaScript files which run sequentially in the following order:
 
 1.	download-sitemap.js
