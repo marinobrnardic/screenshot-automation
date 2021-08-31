@@ -1,0 +1,26 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "snapshots-to-pdf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "waldo": "node extract-urls %npm_config_WEBSITE_NAME% && node take-snapshots && node snapshots-to-pdf && node pdf-to-azure && node azure-to-filestage"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@percy/script": "^1.1.0",
+    "axios": "^0.21.1"
+  },
+  "dependencies": {
+    "@azure/storage-blob": "^12.5.0",
+    "dotenv": "^8.2.0",
+    "firefox": "0.0.1",
+    "pdfkit": "^0.11.0",
+    "puppeteer": "^5.5.0",
+    "sizeof": "^1.0.0",
+    "xml-formatter": "^2.4.0",
+    "xml2js": "^0.4.23"
+  }
+}
