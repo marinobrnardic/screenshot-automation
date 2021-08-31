@@ -1,8 +1,4 @@
-# Getting Started
-
-To run this tool locally you need to install Node.js. Once done, all dependencies will be installed by using package.json
-
-## Prerequisites
+## Getting Started
 
 Install [Node.js](https://nodejs.org/en/download/)
 
