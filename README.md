@@ -10,17 +10,17 @@ Install dependencies:
 
 Create .env file in the root folder and place the following environment vars in it:
 
-`AZURE_AD_ID \
-ENV_USERNAME \
-ENV_PASSWORD \
-CLIENT_ID \
-RESOURCE \
-REDIRECT_URI \
-CLIENT_SECRET \
-BEARER_TOKEN \
-STORAGE_CONNECTION_STRING \
-FILESTAGE_BEARER_TOKEN \
-npm_config_COMPANY_WEBSITE_NAME`
+`AZURE_AD_ID`
+`ENV_USERNAME`
+`ENV_PASSWORD`
+`CLIENT_ID`
+`RESOURCE`
+`REDIRECT_URI`
+`CLIENT_SECRET`
+`BEARER_TOKEN`
+`STORAGE_CONNECTION_STRING`
+`FILESTAGE_BEARER_TOKEN`
+`npm_config_COMPANY_WEBSITE_NAME`
 
 ## Running the tool
 To run the tool, run the following command in the terminal (replace <nameofthewebsite> with the website you want to take screenshots of, for example github.com):
